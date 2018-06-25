@@ -13,7 +13,7 @@ Task 1
 	  ![publicsubnet](https://github.com/kamal24111991/Cloud-Aws-Assignment/blob/master/day1/media/publicsubnet.png)
 	  
           Created private subnet with 10.0.1.0/24
-          ![privatesubnet](https://github.com/kamal24111991/Cloud-Aws-Assignment/blob/master/day1/media/privatesubnet.png)
+ ![privatesubnet](https://github.com/kamal24111991/Cloud-Aws-Assignment/blob/master/day1/media/privatesubnet.png)
           
 Task 2
 
@@ -21,11 +21,11 @@ Task 2
         Solution:
                Created windows EC2 instance in public subnet and by default port rdp 3389 port allowed.
 	       
-               Created linux EC2 instance in private subnet and by default port ssh 22 port allowed.
-	        ![Linux%20andwindowsInstances](https://github.com/kamal24111991/Cloud-Aws-Assignment/blob/master/day1/media/Linux%20andwindowsInstances.png)
+               Created linux EC2 instance in private subnet and by default port ssh 22 port allowed
+![Linux%20andwindowsInstances](https://github.com/kamal24111991/Cloud-Aws-Assignment/blob/master/day1/media/Linux%20andwindowsInstances.png)
 		
                Both instances are not pingable.
-                 ![pingable](https://github.com/kamal24111991/Cloud-Aws-Assignment/blob/master/day1/media/pingable.png)
+   ![pingable](https://github.com/kamal24111991/Cloud-Aws-Assignment/blob/master/day1/media/pingable.png)
 
 
 
@@ -41,7 +41,7 @@ Task 3
         pip install awscli --upgrade --user
 
         aws –version
-	![awsconfigure](https://github.com/kamal24111991/Cloud-Aws-Assignment/blob/master/day1/media/awsconfigure.png)
+![awsconfigure](https://github.com/kamal24111991/Cloud-Aws-Assignment/blob/master/day1/media/awsconfigure.png)
 
         # Configure cli with your AWS Account
  
@@ -52,7 +52,7 @@ Task 3
 
          aws ec2 create-key-pair --key-name myprivatekey --query 'KeyMaterial' --output text > /root/myprivatekey.pem
 	 
-         ![createnewkeypair](https://github.com/kamal24111991/Cloud-Aws-Assignment/blob/master/day1/media/createnewkeypair.png)
+  ![createnewkeypair](https://github.com/kamal24111991/Cloud-Aws-Assignment/blob/master/day1/media/createnewkeypair.png)
         
 	
 	# Created Security group with name "mysecuritygroup"
@@ -79,4 +79,4 @@ Task 3
 	
 
 
-         ![Linux%20andwindowsInstances](https://github.com/kamal24111991/Cloud-Aws-Assignment/blob/master/day1/media/Linux%20andwindowsInstances.png)
+   ![Linux%20andwindowsInstances](https://github.com/kamal24111991/Cloud-Aws-Assignment/blob/master/day1/media/Linux%20andwindowsInstances.png)
