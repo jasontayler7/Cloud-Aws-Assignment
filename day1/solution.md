@@ -7,10 +7,10 @@ Task 1
 
     Solution: 
           Created VPC through vpc wizard of 10.0.0.0/16 CIDR in mumbai region.
-	  ![myvpc](https://github.com/kamal24111991/Cloud-Aws-Assignment/blob/master/day1/media/myvpc.png)
+![myvpc](https://github.com/kamal24111991/Cloud-Aws-Assignment/blob/master/day1/media/myvpc.png)
           
 	  Created Public subnet with 10.0.0.0/24
-	  ![publicsubnet](https://github.com/kamal24111991/Cloud-Aws-Assignment/blob/master/day1/media/publicsubnet.png)
+ ![publicsubnet](https://github.com/kamal24111991/Cloud-Aws-Assignment/blob/master/day1/media/publicsubnet.png)
 	  
           Created private subnet with 10.0.1.0/24
  ![privatesubnet](https://github.com/kamal24111991/Cloud-Aws-Assignment/blob/master/day1/media/privatesubnet.png)
