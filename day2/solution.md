@@ -18,9 +18,12 @@ Task 1
 
         Solution : 
            Created VPC manually and also 2 public and 2 private and 2 protected subnets.
+  ![myvpc](https://github.com/kamal24111991/Cloud-Aws-Assignment/blob/9892b4683e53d204e73391732d469f3fbd480765/day2/media/Myvpc.png)
+  ![myigw](https://github.com/kamal24111991/Cloud-Aws-Assignment/blob/9892b4683e53d204e73391732d469f3fbd480765/day2/media/myigw.png)
+  
            So we have created our setup on 2 availablity zones.
            We have created 2 NGW and attached to public subnet and routed the internet connectivity to private subnet. Attached 1 IGW to VPC
-           
+   ![Routetables](https://github.com/kamal24111991/Cloud-Aws-Assignment/blob/9892b4683e53d204e73391732d469f3fbd480765/day2/media/Routetables.png)
 
 Task 2
 
@@ -33,7 +36,12 @@ Task 2
          Solution : 
            Created 2 instances in each private subnets and created LAMP.
             my first instance serves "Hi! i am server 1" which is resides in first private subnet of availablity zone
+   ![privatesubnet1](https://github.com/kamal24111991/Cloud-Aws-Assignment/blob/9892b4683e53d204e73391732d469f3fbd480765/day2/media/privatesubnet1.png)
+   
+            
             my second instance serves "Hi! i am server 2" which is resides in second private subnet of availablity zone
+   
+   ![privatesubnet1b](https://github.com/kamal24111991/Cloud-Aws-Assignment/blob/9892b4683e53d204e73391732d469f3fbd480765/day2/media/privatesubnet1b.png)         
 
 Task 3
 
@@ -45,4 +53,6 @@ Task 3
             Created public load balancer and attached with my public subnets.
             I have also target the private subnets machines through load balancer and after the all configuration.
             Browsed load balancer dns in web browser and check the avaiblity of websites.
+![loadbalancer](https://github.com/kamal24111991/Cloud-Aws-Assignment/blob/9892b4683e53d204e73391732d469f3fbd480765/day2/media/loadbalancer.png)
 
+![loadbalancer2](https://github.com/kamal24111991/Cloud-Aws-Assignment/blob/9892b4683e53d204e73391732d469f3fbd480765/day2/media/loadbalancer2.png)
