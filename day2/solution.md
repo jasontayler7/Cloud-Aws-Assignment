@@ -56,3 +56,6 @@ Task 3
 ![loadbalancer](https://github.com/kamal24111991/Cloud-Aws-Assignment/blob/9892b4683e53d204e73391732d469f3fbd480765/day2/media/loadbalancer.png)
 
 ![loadbalancer2](https://github.com/kamal24111991/Cloud-Aws-Assignment/blob/9892b4683e53d204e73391732d469f3fbd480765/day2/media/loadbalancer2.png)
+
+
+I will perform this above task using AWS Cli
