@@ -55,4 +55,5 @@ Task 3
     Configure this user key jenkins server aws cli for region "ap-south-1"
     Now I created job dsl in jenkins for start and stop instance.
    ![startec2instance](https://github.com/kamal24111991/Cloud-Aws-Assignment/blob/master/day3/startec2instance.groovy)
+   
    ![stopec2instance](https://github.com/kamal24111991/Cloud-Aws-Assignment/blob/master/day3/stopec2instance.groovy)
