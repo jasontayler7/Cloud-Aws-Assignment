@@ -1,0 +1,12 @@
+---
+- name: "installing nginx in ubuntu"
+  apt:
+    name: nginx
+    state: present
+- name: copying index.html to /var/www/html/
+  copy:
+    src: index.nginx-debian.html
+    dest: /var/www/html/
+  notify:
+    -  restart nginx
+                       
