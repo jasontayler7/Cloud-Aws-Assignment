@@ -57,3 +57,7 @@ Task 3
    ![startec2instance](https://github.com/kamal24111991/Cloud-Aws-Assignment/blob/master/day3/startec2instance.groovy)
    
    ![stopec2instance](https://github.com/kamal24111991/Cloud-Aws-Assignment/blob/master/day3/stopec2instance.groovy)
+   
+   
+   ![stopEC2Instance](https://github.com/kamal24111991/Cloud-Aws-Assignment/blob/master/day3/media/stopEC2Instance.png)
+   ![startEC2Instance](https://github.com/kamal24111991/Cloud-Aws-Assignment/blob/master/day3/media/startEC2Instance.png)
