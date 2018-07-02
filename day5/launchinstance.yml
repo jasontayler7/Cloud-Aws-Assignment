@@ -1,0 +1,39 @@
+---
+- name: "ansible's aws cloud modules"
+  hosts: localhost
+  gather_facts: true
+  tasks:
+  - name: "Creating  Key pair in nothen virginian"
+    ec2_key:
+      name: mykey
+      region: us-east-1
+      state: present
+  - name: "sg"
+    ec2_group:
+      name: mygroup
+      description: sg with rule descriptions
+      vpc_id: vpc-b2c02cc8
+      region: us-east-1
+      rules:
+       - proto: tcp
+         ports:
+           - 22
+           - 80
+           - 443
+         cidr_ip: 0.0.0.0/0
+         rule_desc: allow port 80 22 443
+  - name: "ec2 instance creating"
+    ec2:
+      key_name: mykey
+      instance_type: t2.micro
+      image: ami-cfe4b2b0
+      volumes:
+        - device_name: /dev/xvda
+          volume_type: gp2
+          volume_size: 12
+      instance_tags:
+          Name: myinstance
+      vpc_subnet_id: subnet-139c762d
+      region: us-east-1
+      assign_public_ip: yes
+      count: 1
