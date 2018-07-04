@@ -9,23 +9,38 @@ Permissions associated with them
 Solution: 
 
        IAM Group Created : 2 (Devops & Operation)
-       IAM Users created: 5 ( Rajat, Priyanka Jugran , Kavit, Vishwas & kushgra)
+   ![Group](https://github.com/kamal24111991/Cloud-Aws-Assignment/blob/master/day7/media/Group.png)
+      
+      IAM Users created: 5 ( Rajat, Priyanka Jugran , Kavit, Vishwas & kushgra)
+  ![users](https://github.com/kamal24111991/Cloud-Aws-Assignment/blob/master/day7/media/users.png)
+       
+       
        Permisiion : 5 
        
        
        First case, I have created user names (Rajat, Kavit, & Vishwas) and include in group "Devops"
        Attach below listed policies to Devops group:
-       1) t2.micro creation policy.
+       1) t2.micro and m instances creation policy.
+   ![t2andmpolicy](https://github.com/kamal24111991/Cloud-Aws-Assignment/blob/master/day7/media/t2andmpolicy.png)
+   
        2) m category family instance termination protection.
+  ![M-CategoryInstance-TerminationProtection](https://github.com/kamal24111991/Cloud-Aws-Assignment/blob/master/day7/media/M-CategoryInstance-TerminationProtection.png)
+  
+       After this configuration t2.micro instance creation and termination permission allowed.
+   ![lauchinstancet2.mcro](https://github.com/kamal24111991/Cloud-Aws-Assignment/blob/master/day7/media/lauchinstancet2.mcro.png)
+   
+   I have created m type instance and try to terminate the intance but my IAM user RAJAT haven't enough permission.
+   ![M5INSTANCETERMINATIONPROTECTION](https://github.com/kamal24111991/Cloud-Aws-Assignment/blob/master/day7/media/M5INSTANCETERMINATIONPROTECTION.png)
        
        Second case, I have attached lambda full access policy to kushgra
        Created a role of lambda function which access RDS service. Attached this role to "Operation" group.
+  ![lambdaaccesstoRDS](https://github.com/kamal24111991/Cloud-Aws-Assignment/blob/master/day7/media/lambdaaccesstoRDS.png)
        
        
        In the Third case, I have to provide specific s3 bucket access to Priyanka sharma.
        So created role EC2 which access specific S3 bucket. After that we have attach this role to Instance and try to access specific bucket.
        Now I am sucecssfully upload data to this S3 bucket using AWS Cli. I have also tried to other bucket in the same account but as per role permission it is not accesible.
-       
+![EC2toS3permission](https://github.com/kamal24111991/Cloud-Aws-Assignment/blob/master/day7/media/EC22toS3permission.png)       
   
      
        
