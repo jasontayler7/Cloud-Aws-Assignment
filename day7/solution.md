@@ -8,10 +8,10 @@ Permissions associated with them
 
 Solution: 
 
-       IAM Group Created : 2 (Devops & Operation)
+    IAM Group Created : 2 (Devops & Operation)
    ![Group](https://github.com/kamal24111991/Cloud-Aws-Assignment/blob/master/day7/media/Group.png)
       
-      IAM Users created: 5 ( Rajat, Priyanka Jugran , Kavit, Vishwas & kushgra)
+    IAM Users created: 5 ( Rajat, Priyanka Jugran , Kavit, Vishwas & kushgra)
   ![users](https://github.com/kamal24111991/Cloud-Aws-Assignment/blob/master/day7/media/users.png)
        
        
@@ -26,10 +26,10 @@ Solution:
        2) m category family instance termination protection.
   ![M-CategoryInstance-TerminationProtection](https://github.com/kamal24111991/Cloud-Aws-Assignment/blob/master/day7/media/M-CategoryInstance-TerminationProtection.png)
   
-       After this configuration t2.micro instance creation and termination permission allowed.
+    After this configuration t2.micro instance creation and termination permission allowed.
    ![lauchinstancet2.mcro](https://github.com/kamal24111991/Cloud-Aws-Assignment/blob/master/day7/media/lauchinstancet2.mcro.png)
    
-   I have created m type instance and try to terminate the intance but my IAM user RAJAT haven't enough permission.
+      I have created m type instance and try to terminate the intance but my IAM user RAJAT haven't enough permission.
    ![M5INSTANCETERMINATIONPROTECTION](https://github.com/kamal24111991/Cloud-Aws-Assignment/blob/master/day7/media/M5INSTANCETERMINATIONPROTECTION.png)
        
        Second case, I have attached lambda full access policy to kushgra
